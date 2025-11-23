@@ -1,0 +1,4 @@
+mvn archetype:generate -DarchetypeGroupId=com.intuit.karate -DarchetypeArtifactId=karate-archetype -DarchetypeVersion=1.4.0 -DgroupId=com.example -DartifactId=karate-demo -Dversion=1.0.0-SNAPSHOT -Dpackage=com.example.karate -DinteractiveMode=false
+cd karate-demo
+mvn test -Dtest=example.users.UsersRunner
+target/karate-reports/karate-summary.html
