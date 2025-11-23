@@ -1,0 +1,12 @@
+docker run nginx
+docker ps
+docker run -p 8090:80 -d docker/welcome-to-docker
+docker ps --help
+docker container ls
+docker container ls -a
+docker exec -it <container_id> ls
+docker logs <container_id>
+docker images
+docker --version
+docker inspect <container_name>
+
